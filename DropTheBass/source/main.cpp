@@ -101,7 +101,7 @@ namespace{
 
 int main()
 {
-	//Whole bunch of setup shit
+	//Whole bunch of setup
 	//Attach the interrupts for all the buttons
 	prev.AttachIsrHandle(PrevButtonISR, GPIO::Edge::kRising);
 	next.AttachIsrHandle(NextButtonISR, GPIO::Edge::kRising);
